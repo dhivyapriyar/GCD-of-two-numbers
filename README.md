@@ -23,25 +23,25 @@ RegisterNumber:  22008389
 ```
 def gcd():
 
-n=int(input())
+   n=int(input())
 
-m=int(input())
+   m=int(input())
 
-if(n>m):
+   if(n>m):
 
-min=m
+      min=m
 
-else:
+   else:
 
-min=n
+      min=n
 
-for i in range(1,min+1):
+   for i in range(1,min+1):
 
-if(n%i==0 and m%i==0):
+      if(n%i==0 and m%i==0):
 
-o=i
+          o=i
 
-print("GCD of two numbers is:",o)
+   print("GCD of two numbers is:",o)
 
 ## Output:
 ![gcd](./images/gcd.png)
