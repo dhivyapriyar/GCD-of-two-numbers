@@ -44,7 +44,7 @@ def gcd():
    print("GCD of two numbers is:",o)
 
 ## Output:
-![gcd](./images/gcd.png)
+![gcd1](./images/gcd1.png)
 
 
 ## Result:
